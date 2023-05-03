@@ -1,0 +1,197 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+.navbar .form-inline .btn{
+    height: 44px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+table {
+    text-align: center;
+}
+.search-element{
+    color: #fff;
+    font-size: 18px;
+}
+.select2-container{
+    width: 100% !important;
+}
+.filepond--root .filepond--credits{
+    display: none !important;
+}
+.filepond--drop-label.filepond--drop-label label{
+    display: none !important;
+}
+.filepond--drop-label::after {
+    content: "Chọn một hoặc nhiều ảnh cho sản phẩm";
+}
+.filepond--drop-label{
+    cursor: pointer;
+}
+
+#drop-zone {
+    width: 100%;
+    min-height: 150px;
+    border: 3px dashed rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    font-family: Arial;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: #7E7E7E;
+  }
+  #drop-zone input {
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+  }
+  /*Important*/
+  
+  #drop-zone.mouse-over {
+    border: 3px dashed rgba(0, 0, 0, .3);
+    color: #7E7E7E;
+  }
+  /*If you dont want the button*/
+  
+  #clickHere {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #4679BD;
+    padding: 10px;
+  }
+  #clickHere:hover {
+    background-color: #376199;
+  }
+  #filename {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  .file-preview {
+    background: #ccc;
+    border: 5px solid #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .closeBtn:hover {
+    color: red;
+    display:inline-block;
+  }
+  .input-images{
+    cursor: pointer;
+  }
+  .image-uploader .uploaded .uploaded-image .delete-image:focus{
+    outline: none;
+  }
+  .thumbnail-wrapper {
+    border: 1px solid #ddd;
+    background-color: #fdfdff;
+    border-radius: 5px;
+    position: relative;
+    min-height: 13vw;
+    display: grid;
+    flex-wrap: wrap;
+    grid-gap: 15px;
+    grid-template-columns: repeat(6,1fr);
+    padding: 15px;
+}
+input#files {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.remove{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  color: #fff !important;
+}
+.thumbnail,.gallery-albums .items {
+  width: 100%;
+  height: 13vw;
+  position: relative;
+  border-radius: 5px;
+    overflow: hidden;
+}
+.thumbnail img, .gallery-albums .items img {
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+img.w-100.d-block.img-albums {
+  min-height: 13vw;
+  height: 13vw;
+  object-fit: cover;
+}
+.tab-gallery {
+  margin-bottom: 15px;
+}
+
+.gallery-albums{
+  min-height: 13vw;
+  display: grid;
+  flex-wrap: wrap;
+  grid-gap: 15px;
+  grid-template-columns: repeat(6,1fr);
+}
+
+.chocolat-overlay{
+  z-index: 9;
+  background-color: #000 !important;
+}
+.navbar,.main-sidebar{
+  z-index: 8;
+}
+.navbar .nav-link.nav-link-user img{
+  height: 30px;
+}
+
+.close:focus{
+  outline: none;
+}
+.card-popup-customer{
+  overflow: auto;
+  max-height: 350px;
+}
+.card-popup-customer::-webkit-scrollbar {
+  width: 5px;
+}
+.card-popup-customer::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+.card-popup-customer::-webkit-scrollbar-thumb {
+  background: #ddd; 
+}
+
+/* Handle on hover */
+.card-popup-customer::-webkit-scrollbar-thumb:hover {
+  background: #ddd; 
+}
+.old-price{
+  text-decoration: line-through;
+}
